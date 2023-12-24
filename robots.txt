@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://splendid-bienenstitch-32cfcc.netlify.app/sitemap.xml
