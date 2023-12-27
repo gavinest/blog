@@ -3,7 +3,7 @@ title = "About"
 path = "about"
 +++
 
-I [blog](./blog) about the tech stack I use daily. Python, SQL, Bash, Docker, GCP, Terraform and more.
+I [blog](/posts) about the tech stack I use daily. Python, SQL, Bash, Docker, GCP, Terraform and more.
 
 Usually posts are about learnings or lesser known features.
 
