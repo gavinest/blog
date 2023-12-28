@@ -7,7 +7,7 @@ date = "2023-12-25"
 
 Working with JSON is an ever present task.
 
-While the built-in json module in Python handles serialization for ["standard" data types](https://docs.python.org/3/library/json.html#json.JSONEncoder) we regulary encounter common types that are not json serializable. (i.e. datetime, Decimal and more).
+While the builtin `json` module in Python handles serialization for ["standard" data types](https://docs.python.org/3/library/json.html#json.JSONEncoder) we regulary encounter common types that are not json serializable. (i.e. datetime, Decimal and more).
 
 These "non-standard" types result in a TypeError. To solve this error, I often see programers looping through a series of if statements.
 
@@ -71,4 +71,4 @@ print(json.dumps(non_standard, cls=CustomJsonEncoder))
 # {"datettime": "2023-12-25T17:38:32.872132", "decimal": 10.5}
 ```
 
-Awesome! By specifying a CustomerJsonEncoder we can serialize without worry. This pattern can be extended to handle any other non-standard type we may desire.
+By specifying a CustomerJsonEncoder we can serialize without worry. This pattern can be extended to handle any other non-standard type we may desire.
