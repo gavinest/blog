@@ -7,7 +7,7 @@ date = "2023-12-10"
 
 Which integer is easier to read: 100000000 or 100,000,000?
 
-If you are human you likely agree that the comma-separated 100,000,000 is more inuitive. Using the underscore (`_`) as a separator we can make them more readable in Python.
+If you are human then you likely agree that the comma-separated 100,000,000 is more readable. Using the underscore (`_`) as a separator we can make integers more intuitive in Python.
 
 ```python
 # Non-readable integer. I can't easily tell if this is 100 million or 1 billion.
