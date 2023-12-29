@@ -1,5 +1,5 @@
 +++
-title = "Separate gcloud configs for personal and work projects"
+title = "GCloud Configs for Personal and Work Projects"
 date = "2023-12-28"
 [taxonomies]
   tags = ["gcp"]
