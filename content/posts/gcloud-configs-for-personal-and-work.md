@@ -20,17 +20,21 @@ This article assumes that you have the [GCloud SDK](https://cloud.google.com/sdk
 ```bash
 # 1. list your configurations (the `default` configuration was created when the sdk was set-up)
 $ gcloud config configurations list
->>> NAME      IS_ACTIVE  ACCOUNT.        PROJECT               
->>> default   True       gavin@work.com  aworkproject                    
+
+| NAME     | IS_ACTIVE | ACCOUNT          | PROJECT       |
+|----------|-----------|------------------|---------------|
+| default  | True      | gavin@work.com   | aworkproject  |                  
 
 # 2. create the new configuration
 $ gcloud config configurations create personal
 
 # 3. list to see the new configuration (note: gcloud set the newly created configuration to active )
 $ gcloud config configurations list
->>> NAME      IS_ACTIVE  ACCOUNT            PROJECT               
->>> default   False      gavin@work.com     aworkproject 
->>> personal  True       gavin@personal.com
+
+| NAME      | IS_ACTIVE | ACCOUNT             | PROJECT        |
+|-----------|-----------|---------------------|----------------|
+| default   | False     | gavin@work.com      | aworkproject   |
+| personal  | True      | gavin@personal.com  |                |
 
 # 4. set the account property on the configuration
 $ gcloud config set account gavin@personal.com
@@ -45,7 +49,7 @@ $ gcloud config set project mypersonalproject
 $ gcloud projects list
 ```
 
-# Switching between Configurations
+# Switching Between Configurations
 
 ```bash
 # switch between configurations
