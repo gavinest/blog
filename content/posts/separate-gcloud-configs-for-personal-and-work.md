@@ -5,7 +5,7 @@ date = "2023-12-28"
   tags = ["gcp"]
 +++
 
-I use Google Cloud for work and for personal projects. My work is done in one GCP organization that is owned by my work and my personal projects are in another GCP organization that is owned by me. I'd need a strict separation between the two when developing.
+I use Google Cloud for work and for personal projects. My work is in a GCP organization that is owned by my work and my personal projects are in another GCP organization that is owned by me. I need a strict separation between the two when developing.
 
 Today I'll cover using multiple gcloud configurations to accomplish this with minimal friction.
 
