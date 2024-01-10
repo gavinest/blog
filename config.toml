@@ -31,6 +31,7 @@ menu = [
 
 socials = [
     { name = "github", url = "https://github.com/gavinest", icon = "github" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/gavinest/", icon = "linkedin" },
 ]
 
 custom_css = []
