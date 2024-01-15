@@ -1,5 +1,5 @@
 +++
-title = "Trigger a Cloud Function from a Google Sheet change"
+title = "Trigger a Cloud Function from a Google Sheet Change"
 date = "2024-01-15"
 [taxonomies]
   tags = ["gcp", "python"]
