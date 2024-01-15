@@ -1,5 +1,5 @@
 +++
-title = "Easy Dotfile Management with Chezmoi"
+title = "Easy Dotfiles with Chezmoi"
 date = "2024-01-06"
 [taxonomies]
   tags = ["dotfiles", "bash"]
@@ -19,12 +19,40 @@ Chezmoi is a command-line tool that wrangles your dotfiles chaos. It takes care 
 
 See [my dotfiles repo](https://github.com/gavinest/dotfiles) managed by Chezmoi.
 
-# About Chezmoi
+## Common Commands
+
+Here are commands you'll use 95% of the time, but Chezmoi is capable of much more. See [Chezmoi features](#chezmoi-features) below.
+
+```bash
+# add a dotfile to Chezmoi management
+chezmoi add ~/.zshrc
+
+# edit a dotfile file
+chezmoi edit ~/.zshrc
+
+# see the change that would be applied
+chezmoi diff
+
+# apply the change
+chezmoi apply
+
+# change to the chezmoi directory to commit changes
+chezmoi cd
+```
+
+## Chezmoi Features
 
 - **<ins>Version Control</ins>**: Chezmoi is built on top of Git, making it easy to track changes, revert to previous versions, and understand updates.
-- **<ins>Variation Across Machines</ins>**: Your work and personal laptop can have slightly different settings while maintaining the same base configuration.
+
+- **<ins>Variation Across Machines</ins>**: Your work and personal laptop can have slightly different settings while maintaining the same
+base configuration.
+
 - **<ins>Security</ins>**: Securely manage passwords, API keys, or other sensitive data within your dotfiles through encryption, integrating with password managers like [1Password](https://1password.com/) or by ignoring files.
+
 - **<ins>Advanced Features</ins>**:
+
   - **Templates**: Templates make it easy to handle differences across machines without duplicating files.
+
   - **Scripts**: Automate post-apply tasks with scripts. For example, you might want to reload your shell configuration or restart services after applying new dotfiles.
+  
   - **Encryption**: Secure sensitive files like SSH or GPG keys using encryption, ensuring they're safe even when your dotfile repository is public.
