@@ -11,7 +11,7 @@ I highly recommend the free MIT course: [The Missing Semester of Your CS Educati
 
 When I first took the course a few years ago the [dotfiles](https://missing.csail.mit.edu/2020/command-line/) section spawned something I hadn't considered. While I was long familiar with ubiquitous dotfiles (i.e. .bash_profile or .vimrc) for settings management, I never thought about managing or versioning them! And I especially never considered making them usable across machines.
 
-That set me on a search for a solution!
+While it turns out a lot of people have had [this realization](https://dotfiles.github.io/), I set out for a management solution.
 
 I looked at a few tools and even started using [GNU Stow](https://www.gnu.org/software/stow/) for a while, but that was before I found [Chezmoi](https://www.chezmoi.io/).
 
