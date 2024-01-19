@@ -1,6 +1,6 @@
 +++
 title = "Devcontainers: Persist .zsh_history"
-date = "2024-01-21"
+date = "2024-01-19"
 [taxonomies]
   tags = ["vscode", "devcontainers", "zsh", "dotfiles"]
 +++
