@@ -3,8 +3,8 @@ base_url = "https://estenssorog.com"
 title = "estenssorog"
 theme = "apollo"
 
-# generate_feed = true
-# feed_filename = "rss.xml"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
 
 compile_sass = true
 build_search_index = false
