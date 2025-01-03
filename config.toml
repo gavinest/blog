@@ -1,6 +1,6 @@
 # The URL the site will be built for
-base_url = "https://estenssorog.com"
-title = "estenssorog"
+base_url = "https://gavinest.com"
+title = "gavinest"
 theme = "apollo"
 
 generate_feeds = true

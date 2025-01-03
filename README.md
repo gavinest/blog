@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1808a666-01fa-4431-8a66-6fdf995bbe1f/deploy-status)](https://app.netlify.com/sites/splendid-bienenstitch-32cfcc/deploys)
-# [estenssorog.com](https://www.estenssorog.com)
+# [gavinest.com](https://www.gavinest.com)
 
-My personal [blog & website](https://wwww.estenssorog.com).
+My personal [blog & website](https://wwww.gavinest.com).
 
 ## Technologies Used
 
