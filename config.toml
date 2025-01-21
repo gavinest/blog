@@ -32,6 +32,7 @@ menu = [
 socials = [
     { name = "github", url = "https://github.com/gavinest", icon = "github" },
     { name = "linkedin", url = "https://www.linkedin.com/in/gavinest/", icon = "linkedin" },
+    { name = "x", url = "https://x.com/_gavinest", icon = "x-twitter" },
     { name = "rss", url = "/rss.xml", icon = "rss" },
 ]
 

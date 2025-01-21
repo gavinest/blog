@@ -22,5 +22,5 @@ Run `zola serve` to start the local server and navigate to [http://127.0.0.1:111
 
 The site is deployed via Netlify. The deployment is triggered automatically when a new commit is pushed to the `master` branch.
 
-Previously, netflify used a different Zola version to build then the one I used locally. This lead to some issues. To fix, I specified the Zola version in the [netlify.toml](netlify.toml).
+Previously, netflify used a different Zola version to build then the one I used locally. This lead to some issues. To fix, I specified the Zola version in the [netlify.toml](./netlify.toml).
 See the Zola docs on netflify [here](https://www.getzola.org/documentation/deployment/netlify/).
