@@ -7,7 +7,9 @@ date = "2025-02-10"
 
 [Hammerspoon](https://www.hammerspoon.org/) provides a suite of core productivity tools I rely on in my daily workflow.
 
-The Hammerspoon framework makes it easy to interact with the macOS. You can create custom tools and automations or use pre-built ones from the community, called [Spoons](https://www.hammerspoon.org/Spoons/). While Hammerspoon has an official Spoon repository, you can also find Spoons elsewhere online. If you're interested in making custom automations, Hammerspoon offers a powerful and well-documented [API](https://www.hammerspoon.org/docs/).
+The Hammerspoon framework makes it easy to interact with the macOS. You can create custom tools and automations or use pre-built ones from the community, called [Spoons](https://www.hammerspoon.org/Spoons/). With hotkey bindings, using Spoons becomes seamless and intuitive.
+
+While Hammerspoon has an official Spoon repository, you can also find Spoons elsewhere online. If you're interested in making custom automations, Hammerspoon offers a powerful and well-documented [API](https://www.hammerspoon.org/docs/).
 
 Below are some community-created Spoons that are essential to my day-to-day:
 
@@ -21,9 +23,8 @@ Below is my `init.lua` file as of writing. For the latest version, check my [dot
 
 ```lua
 shortcut_keys = { "ctrl", "alt" }
-hs.hotkey.bind(shortcut_keys, "r", function() hs.reload() end) -- reload config shortcut
 
--- Once installed SpoonInstall automatically installs the other spoons below
+-- Once installed SpoonInstall automatically installs the other Spoons below
 hs.loadSpoon("SpoonInstall")
 
 spoon.SpoonInstall:andUse(
@@ -36,6 +37,7 @@ spoon.SpoonInstall:andUse(
     }
 )
 
+-- ShiftIt is not available on the official Spoon repository, but can be installed by providing SpoonInstall with the repo URL
 spoon.SpoonInstall.repos.ShiftIt = {
    url = "https://github.com/peterklijn/hammerspoon-shiftit",
    desc = "ShiftIt spoon repository",
