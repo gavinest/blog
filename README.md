@@ -14,7 +14,12 @@ Clone the repo and submodule.
 
 ```bash
 git clone --recurse-submodules git@github.com:gavinest/blog.git
+
+# or if the repo is already cloned and you just need to init the submodules
+
+git submodule update --init --recursive
 ```
+
 
 Run `zola serve` to start the local server and navigate to [http://127.0.0.1:1111/](http://127.0.0.1:1111/).
 
