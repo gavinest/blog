@@ -1,18 +1,19 @@
 +++
 title = "ZeroOffset: Toggle UTC time in the menubar"
 date = "2025-02-05"
+updated = "2025-02-27"
 weight = 1
 [taxonomies]
   tags = ["hammerspoon", "lua", "macos", "open-source"]
 +++
 
-[ZeroOffset](https://github.com/gavinest/ZeroOffset) is a lightweight tool that toggles UTC time in the MacOs menu bar. With optional hotkey settings, switching the timestamp on and off is seamless.
+\[Update\]: ZeroOffset is now part of the official Hammerspoon Spoon [repository](https://www.hammerspoon.org/Spoons/)! View it on the Spoons page [here](https://www.hammerspoon.org/Spoons/ZeroOffset.html).
+
+[ZeroOffset](https://github.com/gavinest/ZeroOffset) is a lightweight tool that toggles UTC time in the MacOs menu bar. Hotkey settings make switching the timestamp on and off seamless.
 
 If you work with system logs, workflow schedules, databases, or anything that relies on UTC time, ZeroOffset provides a quick and convenient reference.
 
 Built in Lua and the [Hammerspoon](https://www.hammerspoon.org/) framework, ZeroOffset is open-sourced under the MIT license. Installation and configuration instructions are available on the project's [Githhub page](https://github.com/gavinest/ZeroOffset).
-
-I submitted ZeroOffset to the official [Hammerspoon Spoon repository](https://www.hammerspoon.org/Spoons/) and am awaiting approval.
 
 **What is Hammerspooon?** I wrote a blog [post](@/posts/unlock-mac-productivity-with-hammerspoon.md) on the topic.
 
